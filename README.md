@@ -26,17 +26,29 @@ In the Cokriging linear system, the covariance matrix C is of very large size. S
 	- Download the script for ST-Cokriging here.
 2.	Environmental setup
 	- Enable extensions in ArcMap
+	
 	<img src="/Images/fg2.png">
+	
 	- Setup the Geo-processing option
+	
 	<img src="/Images/fg3.png">
+	
 	- Open Arctoolbox window, right click and add a toolbox
+	
 	<img src="/Images/fg4.png">
+	
 	- Navigate to the toolbox just downloaded and select
+	
 	<img src="/Images/fg5.png">
+	
 	- Unfold the toolbox and the scripts should be appeared in the toolbox
+	
 	<img src="/Images/fg6.png">
+	
 	- Right click the ST-Cokriging script and select properties
+	
 	<img src="/Images/fg7.png">
+	
 	- Click source tab and link the ST-Cokriging script to the toolbox
 	- Do the same procedure to the semi-variogram script and link the downloaded code to the arctoolbox script.
 	
