@@ -22,9 +22,9 @@ In the Cokriging linear system, the covariance matrix C is of very large size. S
 ## Source and Environmental 
 
 1.	Source code download
-	- Download the toolbox in ArcGIS from here.
-	- Download the script for spatio-temporal semi-variogram here.
-	- Download the script for ST-Cokriging here.
+	- Download the toolbox for  ArcGIS from this repository (yangtoolbox_crime.tbx). 
+	- Download the scripts for ST-Cokriging from this repository ()
+	
 2.	Environmental setup
 	- Enable extensions in ArcMap
 	
@@ -62,8 +62,8 @@ In the Cokriging linear system, the covariance matrix C is of very large size. S
 
 ## Citations
 * Yang, B., Liu, L., Lan, M., Wang, Z., Zhou, H., Yu, H., (2020). A spatio-temporal method for crime prediction using historical crime data and transitional zones identified from nightlight imagery. *International Journal of Geographical Information Science*, 1-25. [DOI: 10.1080/13658816.2020.1737701](https://doi.org/10.1080/13658816.2020.1737701)
-* Yu, H.; Liu, L.; **Yang, B.;** Lan, M. Crime Prediction with Historical Crime and Movement Data of Potential Offenders Using a Spatio-Temporal Cokriging Method. *ISPRS International Journal of Geo-Information*. 2020, 9, 732. [DOI:10.3390/ijgi9120732](https://doi.org/10.3390/ijgi9120732)
-* Zhou, H., Liu, L., Lan, M., **Yang, B.**, Wang, Z. (2019) Assessing the Impact of Nightlight Gradients on Street Robbery and Burglary in Cincinnati of Ohio State, USA. *Remote Sensing*. 11, 1958. [DOI: 10.3390/rs11171958](https://doi.org/10.3390/rs11171958)
+* Yu, H.; Liu, L.; Yang, B.; Lan, M. Crime Prediction with Historical Crime and Movement Data of Potential Offenders Using a Spatio-Temporal Cokriging Method. *ISPRS International Journal of Geo-Information*. 2020, 9, 732. [DOI:10.3390/ijgi9120732](https://doi.org/10.3390/ijgi9120732)
+* Zhou, H., Liu, L., Lan, M., Yang, B., Wang, Z. (2019) Assessing the Impact of Nightlight Gradients on Street Robbery and Burglary in Cincinnati of Ohio State, USA. *Remote Sensing*. 11, 1958. [DOI: 10.3390/rs11171958](https://doi.org/10.3390/rs11171958)
 
 
 
