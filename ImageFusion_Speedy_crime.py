@@ -592,7 +592,7 @@ def finalRun_detrend_Rsmp():
     
     saveRaster()
     #
-    arcpy.AddMessage(time.strftime("%m-%d %X",time.localtime())+outputFusionRaster+ " has finished")
+    arcpy.AddMessage(time.strftime("%m-%d %X",time.localtime())+ outputFusionRaster+ " has finished")
 #try:
 finalRun_detrend_Rsmp()
 #except:
