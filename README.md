@@ -19,39 +19,42 @@ In ST-cokriging formulation, we assume that the primary variable of interest is 
 **3.	Extension implementation**
 In the Cokriging linear system, the covariance matrix C is of very large size. Since the co-variable is observed at high spatial resolution, it is very likely that covariance matrix are very large. Similarly, even with smaller dimension for the primary variable observed at coarse spatial resolution, adding temporal dimension can still be large, since the primary variable is observed at high temporal frequency. Therefore, the matrix C can be of high dimension. Solving such a high-dimensional linear system can be computationally infeasible. One popular method to alleviate this diﬃculty is to force small numbers in the matrix (vector) to be zero, known as thresholding or tapering. Meanwhile, we take advantage of the feature of regularly gridded data in the application presented in Section 3, which facilitates eﬃcient parallel computing of the Cokriging predictor and variance.
 
-## Source and Environmental 
+## Source and Environment 
 
 1.	Source code download
-	- Download the toolbox in ArcGIS from here.
-	- Download the script for spatio-temporal semi-variogram here.
-	- Download the script for ST-Cokriging here.
+	Download the toolbox for  ArcGIS from this repository (yangtoolbox_crime.tbx). 
+	Download python scripts for ST-Cokriging from this repository 
+	 * **FittingVariog_crime.py** to be linked with toolbox **FittingVariogram**
+	 * **ImageFusion_Speedy_crime.py** to be linked with toolbox **STCoKriging_crime**
+	 * **SemiVariog.py** to be linked with toolbox **Variogram**
+	
 2.	Environmental setup
 	- Enable extensions in ArcMap
 	
-	<img src="/Images/fg2.png">
+	<img width="500" src="/Images/fg2.png">
 	
 	- Setup the Geo-processing option
 	
-	<img src="/Images/fg3.png">
+	<img width="500" src="/Images/fg3.png">
 	
 	- Open Arctoolbox window, right click and add a toolbox
 	
-	<img src="/Images/fg4.png">
+	<img width="500" src="/Images/fg4.png">
 	
 	- Navigate to the toolbox just downloaded and select
 	
-	<img src="/Images/fg5.png">
+	<img width="500" src="/Images/fg5.png">
 	
 	- Unfold the toolbox and the scripts should be appeared in the toolbox
 	
-	<img src="/Images/fg6.png">
+	<img width="500" src="/Images/fg6.png">
 	
 	- Right click the ST-Cokriging script and select properties
 	
-	<img src="/Images/fg7.png">
+	<img width="500" src="/Images/fg7.png">
 	
 	- Click source tab and link the ST-Cokriging script to the toolbox
-	- Do the same procedure to the semi-variogram script and link the downloaded code to the arctoolbox script.
+	- Do the same procedure to the semi-variogram script and FittingVariog_crime script link the downloaded code to the arctoolbox script.
 	
 ## Troubleshooting
 1. Both time-series primary variable and co-variable should be re-project to same coordinates system as well as same datum.
@@ -62,8 +65,8 @@ In the Cokriging linear system, the covariance matrix C is of very large size. S
 
 ## Citations
 * Yang, B., Liu, L., Lan, M., Wang, Z., Zhou, H., Yu, H., (2020). A spatio-temporal method for crime prediction using historical crime data and transitional zones identified from nightlight imagery. *International Journal of Geographical Information Science*, 1-25. [DOI: 10.1080/13658816.2020.1737701](https://doi.org/10.1080/13658816.2020.1737701)
-* Yu, H.; Liu, L.; **Yang, B.;** Lan, M. Crime Prediction with Historical Crime and Movement Data of Potential Offenders Using a Spatio-Temporal Cokriging Method. *ISPRS International Journal of Geo-Information*. 2020, 9, 732. [DOI:10.3390/ijgi9120732](https://doi.org/10.3390/ijgi9120732)
-* Zhou, H., Liu, L., Lan, M., **Yang, B.**, Wang, Z. (2019) Assessing the Impact of Nightlight Gradients on Street Robbery and Burglary in Cincinnati of Ohio State, USA. *Remote Sensing*. 11, 1958. [DOI: 10.3390/rs11171958](https://doi.org/10.3390/rs11171958)
+* Yu, H.; Liu, L.; Yang, B.; Lan, M. Crime Prediction with Historical Crime and Movement Data of Potential Offenders Using a Spatio-Temporal Cokriging Method. *ISPRS International Journal of Geo-Information*. 2020, 9, 732. [DOI:10.3390/ijgi9120732](https://doi.org/10.3390/ijgi9120732)
+* Zhou, H., Liu, L., Lan, M., Yang, B., Wang, Z. (2019) Assessing the Impact of Nightlight Gradients on Street Robbery and Burglary in Cincinnati of Ohio State, USA. *Remote Sensing*. 11, 1958. [DOI: 10.3390/rs11171958](https://doi.org/10.3390/rs11171958)
 
 
 
