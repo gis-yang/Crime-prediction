@@ -19,39 +19,42 @@ In ST-cokriging formulation, we assume that the primary variable of interest is 
 **3.	Extension implementation**
 In the Cokriging linear system, the covariance matrix C is of very large size. Since the co-variable is observed at high spatial resolution, it is very likely that covariance matrix are very large. Similarly, even with smaller dimension for the primary variable observed at coarse spatial resolution, adding temporal dimension can still be large, since the primary variable is observed at high temporal frequency. Therefore, the matrix C can be of high dimension. Solving such a high-dimensional linear system can be computationally infeasible. One popular method to alleviate this diﬃculty is to force small numbers in the matrix (vector) to be zero, known as thresholding or tapering. Meanwhile, we take advantage of the feature of regularly gridded data in the application presented in Section 3, which facilitates eﬃcient parallel computing of the Cokriging predictor and variance.
 
-## Source and Environmental 
+## Source and Environment 
 
 1.	Source code download
-	- Download the toolbox for  ArcGIS from this repository (yangtoolbox_crime.tbx). 
-	- Download the scripts for ST-Cokriging from this repository ()
+	Download the toolbox for  ArcGIS from this repository (yangtoolbox_crime.tbx). 
+	Download python scripts for ST-Cokriging from this repository 
+	 * **FittingVariog_crime.py** to be linked with toolbox **FittingVariogram**
+	 * **ImageFusion_Speedy_crime.py** to be linked with toolbox **STCoKriging_crime**
+	 * **SemiVariog.py** to be linked with toolbox **Variogram**
 	
 2.	Environmental setup
 	- Enable extensions in ArcMap
 	
-	<img src="/Images/fg2.png">
+	<img width="500" src="/Images/fg2.png">
 	
 	- Setup the Geo-processing option
 	
-	<img src="/Images/fg3.png">
+	<img width="500" src="/Images/fg3.png">
 	
 	- Open Arctoolbox window, right click and add a toolbox
 	
-	<img src="/Images/fg4.png">
+	<img width="500" src="/Images/fg4.png">
 	
 	- Navigate to the toolbox just downloaded and select
 	
-	<img src="/Images/fg5.png">
+	<img width="500" src="/Images/fg5.png">
 	
 	- Unfold the toolbox and the scripts should be appeared in the toolbox
 	
-	<img src="/Images/fg6.png">
+	<img width="500" src="/Images/fg6.png">
 	
 	- Right click the ST-Cokriging script and select properties
 	
-	<img src="/Images/fg7.png">
+	<img width="500" src="/Images/fg7.png">
 	
 	- Click source tab and link the ST-Cokriging script to the toolbox
-	- Do the same procedure to the semi-variogram script and link the downloaded code to the arctoolbox script.
+	- Do the same procedure to the semi-variogram script and FittingVariog_crime script link the downloaded code to the arctoolbox script.
 	
 ## Troubleshooting
 1. Both time-series primary variable and co-variable should be re-project to same coordinates system as well as same datum.
