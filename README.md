@@ -22,8 +22,8 @@ In the Cokriging linear system, the covariance matrix C is of very large size. S
 ## Source and Environment 
 
 1.	Source code download
-	Download the toolbox (yangtoolbox_crime.tbx) for ArcGIS from this repository folder(Toolbox and Codes). 
-	Download python scripts for ST-Cokriging from this repository folder(Toolbox and Codes)
+	Download the toolbox (yangtoolbox_crime.tbx) for ArcGIS from this repository folder (Toolbox and Codes). 
+	Download python scripts for ST-Cokriging from this repository folder (Toolbox and Codes)
 	 * **FittingVariog_crime.py** to be linked with toolbox **FittingVariogram**
 	 * **ImageFusion_Speedy_crime.py** to be linked with toolbox **STCoKriging_crime**
 	 * **SemiVariog.py** to be linked with toolbox **Variogram**
