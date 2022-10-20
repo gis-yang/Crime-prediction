@@ -95,6 +95,8 @@ Step III, predict using ST-Cokriging
 * Yang, B., Liu, L., Lan, M., Wang, Z., Zhou, H., Yu, H., (2020). A spatio-temporal method for crime prediction using historical crime data and transitional zones identified from nightlight imagery. *International Journal of Geographical Information Science*, 1-25. [DOI: 10.1080/13658816.2020.1737701](https://doi.org/10.1080/13658816.2020.1737701)
 * Yu, H.; Liu, L.; Yang, B.; Lan, M. Crime Prediction with Historical Crime and Movement Data of Potential Offenders Using a Spatio-Temporal Cokriging Method. *ISPRS International Journal of Geo-Information*. 2020, 9, 732. [DOI:10.3390/ijgi9120732](https://doi.org/10.3390/ijgi9120732)
 * Zhou, H., Liu, L., Lan, M., Yang, B., Wang, Z. (2019) Assessing the Impact of Nightlight Gradients on Street Robbery and Burglary in Cincinnati of Ohio State, USA. *Remote Sensing*. 11, 1958. [DOI: 10.3390/rs11171958](https://doi.org/10.3390/rs11171958)
+* Liu, L., Zhou, H., Lan, M., & Wang, Z. (2020). Linking Luojia 1-01 nightlight imagery to urban crime. Applied geography, 125, 102267. [DOI: 10.1016/j.apgeog.2020.102267](https://doi.org/10.1016/j.apgeog.2020.102267)
+
 
 
 
