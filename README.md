@@ -65,11 +65,13 @@ In the Cokriging linear system, the covariance matrix C is of very large size. S
 * At last, select the path to store the txt files of spatial and temporal semi-variogram.
 
 <img width="300" src="/Images/fg8.png">
+
 * Step II Fitting spatial and temporal semi-variogram
 * the output are text files of spatial and temporal semi-variogram
 * input the spatial and temporal semi-variogram files to be fitting to function
 * Choose the fitting fucniton based on the shape of the semi-varigram. In the example below, the spatial semivariogram is fit for Gaussian function, while the temporal semi-variogram is fit for Exponential fucntion
 * The fitted output are two txt files, using parameters of nuggest, sill, and range to depict the spatial and temporal dependance
+
 <img width="300" src="/Images/fg11.png">
 
 * The spatial and temporal semivariogram will be converted to covariance/correlation, then combined to spatio-temporal covariance fucntion
@@ -77,9 +79,10 @@ In the Cokriging linear system, the covariance matrix C is of very large size. S
 <img width="300" src="/Images/fg12.png">
 
 Step III, predict using ST-Cokriging
-* In put the secondary covariable image, and time-series primary variable, the primary variable should be input in the time-series order. The number of time-series should be no less than 3 for using of spatio-temporal prediction. Other parameters should be included as the example shown below.
+* In put the secondary covariable image, and time-series primary variable, the primary variable should be input in the time-series order. 
+* The number of time-series should be no less than 3 for using of spatio-temporal prediction. 
+* Input the fitted fucntion of spatial and temporal semi-vatiogram from Step II, and assign other parameters. 
 <img width="300" src="/Images/fg10.png">
-
 
 ## Troubleshooting
 1. Both time-series primary variable and co-variable should be re-project to same coordinates system as well as same datum.
