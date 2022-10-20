@@ -72,11 +72,11 @@ In the Cokriging linear system, the covariance matrix C is of very large size. S
 * Choose the fitting function based on the shape of the semi-varigram. In the example below, the spatial semivariogram is fit for Gaussian function, while the temporal semi-variogram is fit for Exponential fucntion
 * The fitted output are two txt files, using parameters of nuggest, sill, and range to depict the spatial and temporal dependance
 
-<img width="300" src="/Images/fg11.png">
+<img width="600" src="/Images/fg11.png">
 
 * The spatial and temporal semivariogram will be converted to covariance/correlation, then combined to spatio-temporal covariance fucntion
 
-<img width="300" src="/Images/fg12.png">
+<img width="600" src="/Images/fg12.png">
 
 Step III, predict using ST-Cokriging
 * In put the secondary covariable image, and time-series primary variable, the primary variable should be input in the time-series order. 
