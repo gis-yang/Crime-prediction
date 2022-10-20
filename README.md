@@ -67,9 +67,9 @@ In the Cokriging linear system, the covariance matrix C is of very large size. S
 <img width="300" src="/Images/fg8.png">
 
 * Step II Fitting spatial and temporal semi-variogram
-* the output are text files of spatial and temporal semi-variogram
+* the output are txt files of spatial and temporal semi-variogram
 * input the spatial and temporal semi-variogram files to be fitting to function
-* Choose the fitting fucniton based on the shape of the semi-varigram. In the example below, the spatial semivariogram is fit for Gaussian function, while the temporal semi-variogram is fit for Exponential fucntion
+* Choose the fitting function based on the shape of the semi-varigram. In the example below, the spatial semivariogram is fit for Gaussian function, while the temporal semi-variogram is fit for Exponential fucntion
 * The fitted output are two txt files, using parameters of nuggest, sill, and range to depict the spatial and temporal dependance
 
 <img width="300" src="/Images/fg11.png">
