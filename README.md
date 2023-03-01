@@ -1,5 +1,7 @@
 # ST-Cokriging ArcGIS extension for crime prediction
 
+## Citation
+* Yang, B., Liu, L., Lan, M., Wang, Z., Zhou, H., Yu, H., (2020). A spatio-temporal method for crime prediction using historical crime data and transitional zones identified from nightlight imagery. *International Journal of Geographical Information Science*, 1-25. [DOI: 10.1080/13658816.2020.1737701](https://doi.org/10.1080/13658816.2020.1737701)
 
 ## Introduction
 **1. Geostatistics, Cokriging, Crime Prediction**
@@ -91,8 +93,7 @@ Step III, predict using ST-Cokriging
 4. The fusion process may take a while (about 1 hour depends on the CPU and RAM of the computer). Once it started running, please don’t use other program at same time. Otherwise window 10 might report ArcGIS no response. When no response appeared, please choose to wait rather than kill the process.
 5. The final product will have 1-pixel-width edge at constant value (or very smooth). It is normal because current version did not model the edge effects, and leave the edge for showing the trend value.
 
-## Citation
-* Yang, B., Liu, L., Lan, M., Wang, Z., Zhou, H., Yu, H., (2020). A spatio-temporal method for crime prediction using historical crime data and transitional zones identified from nightlight imagery. *International Journal of Geographical Information Science*, 1-25. [DOI: 10.1080/13658816.2020.1737701](https://doi.org/10.1080/13658816.2020.1737701)
+
 
 
 
