@@ -4,9 +4,33 @@
 Yang, B., Liu, L., Lan, M., Wang, Z., Zhou, H., Yu, H., (2020). A spatio-temporal method for crime prediction using historical crime data and transitional zones identified from nightlight imagery. *International Journal of Geographical Information Science*, 1-25. [DOI: 10.1080/13658816.2020.1737701](https://doi.org/10.1080/13658816.2020.1737701)
 
 ## Introduction
-**1. Geostatistics, Cokriging, Crime Prediction**
+# Crime Prediction
 
-In geostatistics, Cokriging is a multivariate variant of Kriging technique and makes spatial predictions for a sparsely sampled variable (the primary variable) of interest, with help of one or more well-sampled ancillary variables (the secondary co-variables). Cokriging method usually results in more accurate predictions of the target primary variable than Kriging. This is because Cokriging method exploits cross-correlations between the primary variable and the secondary co-variables in addition to the spatial autocorrelation of the primary variable.
+**Goal**: The goal of this project is to use machine learning and statistical methods to predict crime occurrence, crime hotspots, and crime type.
+
+## Data
+
+Data sources include:
+
+1. Crime data: This dataset contains crime incidents, including the type of crime, location, and time of the incident. Publicly available crime data can be found on city or police department websites, such as the [San Francisco Police Department](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Presen/wg3w-h783).
+
+2. Auxiliary data: This dataset includes demographic, economic, and other relevant factors that may contribute to crime occurrence. Auxiliary data can be obtained from sources like the [United States Census Bureau](https://www.census.gov/data.html).
+
+## Method
+
+1. Data preprocessing: Clean and preprocess the data to remove irrelevant information and transform the data into a suitable format for analysis.
+
+2. Feature engineering: Generate new features that may help improve the predictive power of the model. Examples include time-based features (e.g., hour of the day, day of the week) and spatial features (e.g., distance to the nearest police station).
+
+3. Model training: Train various machine learning models (e.g., logistic regression, random forest, deep learning) and select the best performing model based on evaluation metrics such as accuracy, precision, recall, and F1 score.
+
+4. Model evaluation: Assess the performance of the selected model using a test dataset to ensure its generalizability to new data.
+
+5. Prediction: Use the trained model to predict crime occurrence, hotspots, and crime type based on the input features.
+
+## Applications
+
+The results of this project can be used by law enforcement agencies to allocate resources more effectively, identify potential crime hotspots, and develop crime prevention strategies.
 
 Accurate crime prediction can help allocate police resources for crime reduction and prevention. There are two popular approaches to predict criminal activities: one is based on historical crime, and the other is based on environmental variables correlated with criminal patterns. Previous research on geo-statistical modeling mainly considered one type of data in space-time domain, and few sought to blend multi-source data. In this research, we proposed a spatio-temporal Cokriging algorithm to integrate historical crime data and urban transitional zones for more accurate crime prediction. Time-series historical crime data were used as the primary variable, while urban transitional zones identified from the VIIRS nightlight imagery were used as the secondary co-variable.
 
